@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryButton should render correctly 1`] = `
+.bdSrFx {
+  border: 2px solid palevioletred;
+  background-color: transparent;
+  color: palevioletred;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  font-size: 16px;
+}
+
+.bdSrFx:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+<button
+  className="sc-bdVaJa bdSrFx"
+>
+  I'am a button
+</button>
+`;
+
+exports[`SecondaryButton should render correctly 1`] = `
+.kpIbwH {
+  border: 2px solid palevioletred;
+  background-color: transparent;
+  color: palevioletred;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  font-size: 16px;
+  background-color: palevioletred;
+  color: white;
+}
+
+.kpIbwH:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+.kpIbwH:hover {
+  background-color: transparent;
+  color: palevioletred;
+}
+
+<button
+  className="sc-bwzfXH kpIbwH"
+>
+  I'am a button
+</button>
+`;
