@@ -5,6 +5,8 @@
     "extends": "stylelint-config-standard",
     "syntax": "scss",
     "rules": {
-        "indentation": 4
+        "indentation": 4,
+        "selector-type-no-unknown": "off",
+        "selector-type-case": "off"
     }
 }

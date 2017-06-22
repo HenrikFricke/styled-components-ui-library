@@ -1,14 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Headline should render correctly 1`] = `
-.jxAQPs {
+.bVyChL {
   color: palevioletred;
-  padding: 10px;
+  padding: 10px 0;
   font-size: 32px;
+  margin: 0;
 }
 
 <h1
-  className="sc-bdVaJa jxAQPs"
+  className="sc-bdVaJa bVyChL"
 >
   I'am a healdine
 </h1>

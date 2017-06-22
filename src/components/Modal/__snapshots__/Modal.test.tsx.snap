@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render correctly 1`] = `
+.bVyChL {
+  color: palevioletred;
+  padding: 10px 0;
+  font-size: 32px;
+  margin: 0;
+}
+
+.jteMLO {
+  border-bottom: 1px solid palevioletred;
+}
+
+.jDjMbl {
+  border: 2px solid palevioletred;
+  background-color: palevioletred;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  font-size: 16px;
+}
+
+.jDjMbl:hover {
+  background-color: mediumvioletred;
+  border-color: mediumvioletred;
+}
+
+.jexVLz {
+  border: 2px solid palevioletred;
+  background-color: palevioletred;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  font-size: 16px;
+  background-color: transparent;
+  color: palevioletred;
+}
+
+.jexVLz:hover {
+  background-color: mediumvioletred;
+  border-color: mediumvioletred;
+}
+
+.jexVLz:hover {
+  background-color: transparent;
+  color: mediumvioletred;
+}
+
+.fMNUAa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.fMNUAa > .sc-htpNat {
+  margin-left: 10px;
+}
+
+.nABcD {
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-align: justify;
+  text-align: justify;
+}
+
+.eOpneg {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  box-shadow: 0 0 10px -2px gainsboro;
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+<div
+  className="sc-bZQynM eOpneg"
+>
+  <div
+    className="sc-bwzfXH jteMLO"
+  >
+    <h1
+      className="sc-bdVaJa bVyChL"
+    >
+      Dialog
+    </h1>
+  </div>
+  <p
+    className="sc-EHOje nABcD"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a maximus risus. 
+                    Mauris pulvinar tellus vitae purus mollis, in finibus sapien eleifend.
+  </p>
+  <div
+    className="sc-ifAKCX fMNUAa"
+  >
+    <button
+      className="sc-htpNat jDjMbl"
+    >
+      Save
+    </button>
+    <button
+      className="sc-bxivhb jexVLz"
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+`;
