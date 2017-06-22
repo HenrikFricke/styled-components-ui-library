@@ -1,59 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Modal should render correctly 1`] = `
-.bVyChL {
+.gqsqPu {
+  border: 2px solid palevioletred;
+  background-color: palevioletred;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  font-size: 16px;
+}
+
+.gqsqPu:hover {
+  background-color: mediumvioletred;
+  border-color: mediumvioletred;
+}
+
+.jujSlz {
+  border: 2px solid palevioletred;
+  background-color: palevioletred;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  font-size: 16px;
+  background-color: transparent;
+  color: palevioletred;
+}
+
+.jujSlz:hover {
+  background-color: mediumvioletred;
+  border-color: mediumvioletred;
+}
+
+.jujSlz:hover {
+  background-color: transparent;
+  color: mediumvioletred;
+}
+
+.FbiyV {
   color: palevioletred;
   padding: 10px 0;
   font-size: 32px;
   margin: 0;
 }
 
-.jteMLO {
+.bOTIVh {
   border-bottom: 1px solid palevioletred;
 }
 
-.jDjMbl {
-  border: 2px solid palevioletred;
-  background-color: palevioletred;
-  color: white;
-  padding: 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  -webkit-transition: 300ms all;
-  transition: 300ms all;
-  font-size: 16px;
-}
-
-.jDjMbl:hover {
-  background-color: mediumvioletred;
-  border-color: mediumvioletred;
-}
-
-.jexVLz {
-  border: 2px solid palevioletred;
-  background-color: palevioletred;
-  color: white;
-  padding: 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  -webkit-transition: 300ms all;
-  transition: 300ms all;
-  font-size: 16px;
-  background-color: transparent;
-  color: palevioletred;
-}
-
-.jexVLz:hover {
-  background-color: mediumvioletred;
-  border-color: mediumvioletred;
-}
-
-.jexVLz:hover {
-  background-color: transparent;
-  color: mediumvioletred;
-}
-
-.fMNUAa {
+.hBmHLN {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -63,7 +63,7 @@ exports[`Modal should render correctly 1`] = `
   flex-direction: row-reverse;
 }
 
-.fMNUAa > .sc-htpNat {
+.hBmHLN > .sc-bdVaJa {
   margin-left: 10px;
 }
 
@@ -90,10 +90,10 @@ exports[`Modal should render correctly 1`] = `
   className="sc-bZQynM eOpneg"
 >
   <div
-    className="sc-bwzfXH jteMLO"
+    className="sc-bxivhb bOTIVh"
   >
     <h1
-      className="sc-bdVaJa bVyChL"
+      className="sc-htpNat FbiyV"
     >
       Dialog
     </h1>
@@ -105,15 +105,16 @@ exports[`Modal should render correctly 1`] = `
                     Mauris pulvinar tellus vitae purus mollis, in finibus sapien eleifend.
   </p>
   <div
-    className="sc-ifAKCX fMNUAa"
+    className="sc-ifAKCX hBmHLN"
   >
     <button
-      className="sc-htpNat jDjMbl"
+      className="sc-bdVaJa gqsqPu"
+      onClick={[Function]}
     >
       Save
     </button>
     <button
-      className="sc-bxivhb jexVLz"
+      className="sc-bwzfXH jujSlz"
     >
       Cancel
     </button>

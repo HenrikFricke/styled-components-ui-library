@@ -3,14 +3,15 @@ import styled from 'styled-components';
 
 import { PrimaryButton, SecondaryButton } from '../Button/Button';
 
-interface ModalFooterProps {
+export interface ModalFooterProps {
     className?: string;
+    saveButtonClickHandler: React.EventHandler<React.MouseEvent<HTMLButtonElement>>;
 }
 
 const ModalFooter: React.StatelessComponent<ModalFooterProps> = props => {
     return (
         <div className={props.className}>
-            <PrimaryButton>Save</PrimaryButton>
+            <PrimaryButton onClick={props.saveButtonClickHandler}>Save</PrimaryButton>
             <SecondaryButton>Cancel</SecondaryButton>
         </div>
     );

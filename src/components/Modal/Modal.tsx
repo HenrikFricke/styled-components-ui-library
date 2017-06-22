@@ -13,6 +13,7 @@ interface ModalProps {
     className?: string;
     title: string;
     text: string;
+    saveButtonClickHandler: React.EventHandler<React.MouseEvent<HTMLButtonElement>>;
 }
 
 const Modal: React.StatelessComponent<ModalProps> = props => {
@@ -20,7 +21,9 @@ const Modal: React.StatelessComponent<ModalProps> = props => {
         <div className={props.className}>
             <ModalHeader title={props.title} />
             <Paragraph>{props.text}</Paragraph>
-            <ModalFooter />
+            <ModalFooter
+                saveButtonClickHandler={props.saveButtonClickHandler}
+            />
         </div>
     );
 };
