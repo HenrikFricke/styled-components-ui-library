@@ -10,7 +10,7 @@ export const PrimaryButton = styled.button`
     border: 2px solid ${colors.PRIMARY};
     background-color: transparent;
     color: ${colors.PRIMARY};
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 4px;
     cursor: pointer;
     transition: ${transitions.STANDARD} all;
