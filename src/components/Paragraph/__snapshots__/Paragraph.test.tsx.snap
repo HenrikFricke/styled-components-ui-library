@@ -1,14 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Paragrah should render correctly 1`] = `
-.fDNBJx {
+.jtqDLk {
   color: black;
   padding: 5px;
   font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-align: justify;
+  text-align: justify;
 }
 
 <p
-  className="sc-bdVaJa fDNBJx"
+  className="sc-bdVaJa jtqDLk"
 >
   I'am a small text
 </p>

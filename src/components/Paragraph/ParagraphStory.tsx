@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import Paragraph from './Paragraph';
 
 storiesOf('Paragraph', module)
-    .add('H1', () => (
+    .add('Default', () => (
         <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a maximus risus.
             Mauris pulvinar tellus vitae purus mollis, in finibus sapien eleifend. Sed enim

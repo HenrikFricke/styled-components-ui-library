@@ -5,7 +5,7 @@
     "start": "yarn run storybook",
     "build:lib": "tsc",
     "build:storybook": "build-storybook",
-    "test": "yarn lint && jest --coverage",
+    "test": "yarn lint && jest",
     "lint": "yarn run lint:ts && yarn run lint:styling",
     "lint:ts": "tslint src/**/*.tsx",
     "lint:styling": "stylelint src/components/**/*.tsx",

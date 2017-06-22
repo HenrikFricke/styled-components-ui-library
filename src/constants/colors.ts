@@ -1,5 +1,5 @@
 export const PRIMARY = 'palevioletred';
+export const SECONDARY = 'mediumvioletred';
 
-export const SECONDARY = 'white';
-
+export const WHITE = 'white';
 export const BLACK = 'black';

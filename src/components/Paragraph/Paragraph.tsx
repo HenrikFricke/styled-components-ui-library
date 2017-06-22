@@ -9,4 +9,6 @@ export default styled.p`
     color: ${colors.BLACK};
     padding: 5px;
     font-size: ${fonts.STANDARD};
+    line-height: 1.5;
+    text-align: justify;
 `;

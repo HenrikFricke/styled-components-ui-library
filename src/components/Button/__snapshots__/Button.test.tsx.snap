@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PrimaryButton should render correctly 1`] = `
-.iHFOYc {
+.gqsqPu {
   border: 2px solid palevioletred;
-  background-color: transparent;
-  color: palevioletred;
+  background-color: palevioletred;
+  color: white;
   padding: 10px;
   border-radius: 4px;
   cursor: pointer;
@@ -13,45 +13,45 @@ exports[`PrimaryButton should render correctly 1`] = `
   font-size: 16px;
 }
 
-.iHFOYc:hover {
-  background-color: palevioletred;
-  color: white;
+.gqsqPu:hover {
+  background-color: mediumvioletred;
+  border-color: mediumvioletred;
 }
 
 <button
-  className="sc-bdVaJa iHFOYc"
+  className="sc-bdVaJa gqsqPu"
 >
   I'am a button
 </button>
 `;
 
 exports[`SecondaryButton should render correctly 1`] = `
-.iePwPj {
+.jujSlz {
   border: 2px solid palevioletred;
-  background-color: transparent;
-  color: palevioletred;
+  background-color: palevioletred;
+  color: white;
   padding: 10px;
   border-radius: 4px;
   cursor: pointer;
   -webkit-transition: 300ms all;
   transition: 300ms all;
   font-size: 16px;
-  background-color: palevioletred;
-  color: white;
-}
-
-.iePwPj:hover {
-  background-color: palevioletred;
-  color: white;
-}
-
-.iePwPj:hover {
   background-color: transparent;
   color: palevioletred;
 }
 
+.jujSlz:hover {
+  background-color: mediumvioletred;
+  border-color: mediumvioletred;
+}
+
+.jujSlz:hover {
+  background-color: transparent;
+  color: mediumvioletred;
+}
+
 <button
-  className="sc-bwzfXH iePwPj"
+  className="sc-bwzfXH jujSlz"
 >
   I'am a button
 </button>
