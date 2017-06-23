@@ -33,11 +33,12 @@ describe('ModalFooter', () => {
 
     beforeEach(() => {
         saveButtonClickHandler = jest.fn<React.EventHandler<React.MouseEvent<HTMLButtonElement>>>();
-        component = shallow(
+
+        component = shallow<ModalFooterProps, {}>(
             <ModalFooter
                 saveButtonClickHandler={saveButtonClickHandler}
             />
-        ).dive();
+        ).dive<ModalFooterProps, {}>();
     });
 
     describe('save button', () => {

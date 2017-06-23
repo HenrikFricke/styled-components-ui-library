@@ -9,5 +9,6 @@ storiesOf('Modal', module)
             title="Dialog"
             text={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a maximus risus. 
                 Mauris pulvinar tellus vitae purus mollis, in finibus sapien eleifend.`}
+            saveButtonClickHandler={() => null}
         />
     ));
