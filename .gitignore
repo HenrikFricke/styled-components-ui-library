@@ -5,3 +5,4 @@
 .vscode
 *.js
 *.js.map
+storybook-static/

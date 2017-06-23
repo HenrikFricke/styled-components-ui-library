@@ -1,6 +1,5 @@
 {
   "name": "styled-components-ui-library",
-  "version": "1.0.0",
   "scripts": {
     "start": "yarn run storybook",
     "build:lib": "tsc",
@@ -10,7 +9,8 @@
     "lint:ts": "tslint src/**/*.tsx",
     "lint:styling": "stylelint src/components/**/*.tsx",
     "precommit": "yarn test",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "ghpages:release": "yarn run build:storybook && ghpages --path ./storybook-static"
   },
   "jest": {
     "transform": {
