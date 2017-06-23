@@ -6,7 +6,7 @@
     "syntax": "scss",
     "rules": {
         "indentation": 4,
-        "selector-type-no-unknown": "off",
-        "selector-type-case": "off"
+        "selector-type-no-unknown": null,
+        "selector-type-case": null
     }
 }
