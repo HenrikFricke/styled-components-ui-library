@@ -6553,8 +6553,8 @@ stylelint@^7.11.1, stylelint@^7.7.0:
     table "^4.0.1"
 
 stylis@^3.0.19:
-  version "3.1.7"
-  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.1.7.tgz#aba33dc3495784ecd768aed8b638a429a2ad2069"
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.1.9.tgz#638370451f980437f57c59e58d2e296be29fafb7"
 
 sugarss@^0.2.0:
   version "0.2.0"

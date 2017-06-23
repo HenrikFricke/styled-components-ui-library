@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import styled, { StyledComponentClass } from 'styled-components';
 
 import ModalHeader from './ModalHeader';
 import ModalFooter from './ModalFooter';
@@ -9,7 +9,7 @@ import {
     colors
 } from '../../constants';
 
-interface ModalProps {
+export interface ModalProps {
     className?: string;
     title: string;
     text: string;
@@ -28,7 +28,7 @@ const Modal: React.StatelessComponent<ModalProps> = props => {
     );
 };
 
-export default styled(Modal) `
+const styledModal: StyledComponentClass<ModalProps, {}> = styled(Modal) `
     border: 1px solid ${colors.GRAY};
     border-radius: 5px;
     box-shadow: 0 0 10px -2px ${colors.GRAY};
@@ -37,3 +37,5 @@ export default styled(Modal) `
     box-sizing: border-box;
     background-color: ${colors.WHITE};
 `;
+
+export default styledModal;

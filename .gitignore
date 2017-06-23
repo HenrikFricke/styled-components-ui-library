@@ -6,3 +6,4 @@
 *.js
 *.js.map
 storybook-static/
+dist
