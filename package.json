@@ -10,7 +10,6 @@
     "lint:ts": "tslint src/**/*.tsx",
     "lint:styling": "stylelint src/components/**/*.tsx",
     "precommit": "yarn test",
-    "prepush": "yarn test && yarn prod:build",
     "storybook": "start-storybook -p 6006"
   },
   "jest": {
