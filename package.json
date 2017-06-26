@@ -1,5 +1,7 @@
 {
   "name": "styled-components-ui-library",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "start": "yarn run storybook",
     "prebuild:lib": "rimraf dist/",
