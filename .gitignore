@@ -1,9 +1,6 @@
 /node_modules/
-/lib/
 /coverage/
 .DS_Store
 .vscode
-*.js
-*.js.map
 storybook-static/
 dist

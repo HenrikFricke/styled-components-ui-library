@@ -1,0 +1,8 @@
+storybook-static/
+src/
+coverage/
+.storybook/
+circle.yml
+.stylelintrc
+tsconfig.json
+tslint.json
