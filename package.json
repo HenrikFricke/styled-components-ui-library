@@ -1,16 +1,17 @@
 {
   "name": "styled-components-ui-library",
-  "version": "1.0.0",
   "scripts": {
     "start": "yarn run storybook",
-    "build:lib": "tsc",
+    "prebuild:lib": "rimraf dist/",
+    "build:lib": "tsc --outDir dist/",
     "build:storybook": "build-storybook",
     "test": "yarn lint && jest",
     "lint": "yarn run lint:ts && yarn run lint:styling",
     "lint:ts": "tslint src/**/*.tsx",
     "lint:styling": "stylelint src/components/**/*.tsx",
     "precommit": "yarn test",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "ghpages:release": "yarn run build:storybook && ghpages --path ./storybook-static"
   },
   "jest": {
     "transform": {
@@ -44,7 +45,6 @@
     "react-test-renderer": "^15.6.1",
     "rimraf": "^2.6.1",
     "source-map-support": "^0.4.14",
-    "styled-components": "^2.1.0",
     "stylelint": "^7.11.1",
     "stylelint-config-standard": "^16.0.0",
     "stylelint-processor-styled-components": "^0.1.2",
@@ -54,5 +54,8 @@
     "tslint": "^5.1.0",
     "tslint-react": "^3.0.0",
     "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "styled-components": "^2.1.0"
   }
 }

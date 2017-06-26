@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import styled, { StyledComponentClass } from 'styled-components';
 
 import { PrimaryButton, SecondaryButton } from '../Button/Button';
 
@@ -17,7 +17,7 @@ const ModalFooter: React.StatelessComponent<ModalFooterProps> = props => {
     );
 };
 
-export default styled(ModalFooter) `
+const styledModalFooter: StyledComponentClass<ModalFooterProps, {}> = styled(ModalFooter) `
     display: flex;
     flex-direction: row-reverse;
 
@@ -25,3 +25,5 @@ export default styled(ModalFooter) `
         margin-left: 10px;
     }
 `;
+
+export default styledModalFooter;

@@ -2,8 +2,8 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "esnext",
-    "sourceMap": true,
-    "allowJs": true,
+    "sourceMap": false,
+    "allowJs": false,
     "jsx": "react",
     "moduleResolution": "node",
     "rootDir": "src",
@@ -11,7 +11,7 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
-    "strictNullChecks": true,
+    "strict": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
@@ -19,13 +19,15 @@
       "es2015",
       "es2016",
       "dom"
-    ]
+    ],
+    "declaration": true
   },
   "include": [
-    "src/**/*",
-    "constants/**/*"
+    "src/**/*"
   ],
   "exclude": [
-    "node_modules/**/*"
+    "node_modules/**/*",
+    "src/**/*.test.tsx",
+    "src/**/*Story.tsx"
   ]
 }

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import styled, { StyledComponentClass } from 'styled-components';
 
 import { H1 } from '../Headline/Headline';
 
@@ -7,7 +7,7 @@ import {
     colors
 } from '../../constants';
 
-interface ModalHeaderProps {
+export interface ModalHeaderProps {
     className?: string;
     title: string;
 }
@@ -20,6 +20,8 @@ const ModalHeader: React.StatelessComponent<ModalHeaderProps> = props => {
     );
 };
 
-export default styled(ModalHeader) `
+const styledModalHeader: StyledComponentClass<ModalHeaderProps, {}> = styled(ModalHeader) `
     border-bottom: 1px solid ${colors.PRIMARY};
 `;
+
+export default styledModalHeader;
