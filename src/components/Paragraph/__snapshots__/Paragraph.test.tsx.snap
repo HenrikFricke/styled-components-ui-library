@@ -13,6 +13,6 @@ exports[`Paragrah should render correctly 1`] = `
 <p
   className="sc-bdVaJa jtqDLk"
 >
-  I'am a small text
+  I'm a small text
 </p>
 `;

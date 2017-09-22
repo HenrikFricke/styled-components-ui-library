@@ -11,6 +11,6 @@ exports[`Headline should render correctly 1`] = `
 <h1
   className="sc-bdVaJa bVyChL"
 >
-  I'am a healdine
+  I'm a healdine
 </h1>
 `;

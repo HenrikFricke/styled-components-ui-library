@@ -10,7 +10,7 @@ describe('PrimaryButton', () => {
 
     beforeEach(() => {
         tree = ReactTestRenderer.create(
-            <PrimaryButton>I'am a button</PrimaryButton>
+            <PrimaryButton>I'm a button</PrimaryButton>
         ).toJSON();
     });
 
@@ -24,7 +24,7 @@ describe('SecondaryButton', () => {
 
     beforeEach(() => {
         tree = ReactTestRenderer.create(
-            <SecondaryButton>I'am a button</SecondaryButton>
+            <SecondaryButton>I'm a button</SecondaryButton>
         ).toJSON();
     });
 

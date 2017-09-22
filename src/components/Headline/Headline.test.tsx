@@ -10,7 +10,7 @@ describe('Headline', () => {
 
     beforeEach(() => {
         tree = ReactTestRenderer.create(
-            <H1>I'am a healdine</H1>
+            <H1>I'm a healdine</H1>
         ).toJSON();
     });
 

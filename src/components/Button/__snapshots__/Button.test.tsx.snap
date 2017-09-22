@@ -21,7 +21,7 @@ exports[`PrimaryButton should render correctly 1`] = `
 <button
   className="sc-bdVaJa gqsqPu"
 >
-  I'am a button
+  I'm a button
 </button>
 `;
 
@@ -53,6 +53,6 @@ exports[`SecondaryButton should render correctly 1`] = `
 <button
   className="sc-bwzfXH jujSlz"
 >
-  I'am a button
+  I'm a button
 </button>
 `;

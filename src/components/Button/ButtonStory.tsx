@@ -5,8 +5,8 @@ import { PrimaryButton, SecondaryButton } from './Button';
 
 storiesOf('Button', module)
   .add('primary', () => (
-    <PrimaryButton>I'am a button</PrimaryButton>
+    <PrimaryButton>I'm a button</PrimaryButton>
   ))
   .add('secondary', () => (
-    <SecondaryButton>I'am a button</SecondaryButton>
+    <SecondaryButton>I'm a button</SecondaryButton>
   ));

@@ -10,7 +10,7 @@ describe('Paragrah', () => {
 
     beforeEach(() => {
         tree = ReactTestRenderer.create(
-            <Paragrah>I'am a small text</Paragrah>
+            <Paragrah>I'm a small text</Paragrah>
         ).toJSON();
     });
 
