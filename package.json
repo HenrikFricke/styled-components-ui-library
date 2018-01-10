@@ -12,8 +12,7 @@
     "lint:ts": "tslint src/**/*.tsx",
     "lint:styling": "stylelint src/components/**/*.tsx",
     "precommit": "yarn test",
-    "storybook": "start-storybook -p 6006",
-    "ghpages:release": "yarn run build:storybook && ghpages --path ./storybook-static"
+    "storybook": "start-storybook -p 6006"
   },
   "jest": {
     "transform": {
@@ -39,7 +38,6 @@
     "@types/react-test-renderer": "^15.5.0",
     "@types/storybook__react": "^3.0.0",
     "enzyme": "^2.9.0",
-    "ghpages": "^0.0.10",
     "husky": "^0.13.3",
     "jest": "^20.0.4",
     "jest-styled-components": "git+https://git@github.com/HenrikFricke/jest-styled-components.git",

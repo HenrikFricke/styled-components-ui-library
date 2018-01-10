@@ -29,4 +29,3 @@ deployment:
       - yarn build:lib
       - dot-json package.json version ${CIRCLE_TAG:1}
       - npm publish
-      - yarn ghpages:release

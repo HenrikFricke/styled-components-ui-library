@@ -63,5 +63,4 @@ Visit: http://localhost:6006/
 
 ## Deployment
 
-Push your changes to master and create a new GitHub release (based on [semver](http://semver.org/)). CircleCI is in place to push a new version to npm, it will
-also create and upload a new version of the react storybook.
+Push your changes to master and create a new GitHub release (based on [semver](http://semver.org/)). CircleCI is in place to push a new version to npm.
