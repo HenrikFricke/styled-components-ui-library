@@ -1,5 +1,5 @@
 # styled components ui library
-> concept to create an UI library with styled components and react storybook
+> concept to create an UI library with styled components and [Storybook](https://storybook.js.org)
 
 ## Features
 
